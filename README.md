@@ -1,24 +1,24 @@
-# 🤖 BibiGPT · One-click AI summary for video and audio content [b.jimmylv.cn](https://b.jimmylv.cn/)
+> This repo is only for v1 and supports Bilibil and YouTube!
 
-🎉 (Formerly BiliGPT), now supports: One-click summary for Bilibili and YouTube video content, "Attention-saving tool & Class Representative".
+# 🤖 BibiGPT: one-Click AI Summary for Audio/Video & Chat with Learning Content [https://bibigpt.co](https://bibigpt.co)
 
-🚧 Under development: Support for websites, podcasts, meetings, local audio and video files, etc. as input. The prompt and output ends are being continuously iterated. Stay tuned!
+🎉 Effortlessly summarize YouTube and Bilibili videos with our AI-driven Video Summarizer. It also works for Podcasts, Twitter, Meetings, Lectures, Tiktok videos, and more. Discover a more brilliant way to learn with ChatGPT, your best AI-powered study companion! (formerly BiliGPT) "stream-saving artifact & class representative".
 
-Alternative address: https://chat-bilibili-video.vercel.app
-
----
-
-## 🤖 BibiGPT · 音视频内容一键总结 [b.jimmylv.cn](https://b.jimmylv.cn/)
-
-🎉 (原 BiliGPT)，现已经支持：哔哩哔哩丨 YouTube 视频内容一键总结，“省流神器 & 课代表”。
-
-🚧 开发中：支持网页丨播客丨会议丨本地音视频文件等输入，Prompt 和输出端均在持续迭代中，敬请期待！
-
-备用地址：https://chat-bilibili-video.vercel.app
+Alternate address: https://b.jimmylv.cn
+Browser extension: https://bibigpt.co/extension
 
 ---
 
-🎬 This project summarizes Bilibili/YouTube/Podcast/Meeting/... videos or audios for you using AI.
+## 🤖 BibiGPT · AI 音视频内容一键总结 & 对话 [https://bibigpt.co](https://bibigpt.co)
+
+🎉 ChatGPT AI 音视频一键总结，轻松学习哔哩哔哩丨 YouTube 丨本地视频丨本地音频丨播客丨小红书丨抖音丨会议丨讲座丨网页等任意内容。BibiGPT 助力于成为最好的 AI 学习助理，支持免费试用！(原 BiliGPT 省流神器 & AI 课代表)（支持 iOS 快捷指令 & 微信服务号）。
+
+备用地址：https://b.jimmylv.cn
+浏览器插件: https://bibigpt.co/extension
+
+---
+
+🎬 This project summarizes YouTube/Bilibili/Twitter/TikTok/Podcast/Lecture/Meeting/... videos or audios for you using AI.
 
 🤯 Inspired by [Nutlope/news-summarizer](https://github.com/Nutlope/news-summarizer) & [zhengbangbo/chat-simplifier](https://github.com/zhengbangbo/chat-simplifier/) & [lxfater/BilibiliSummary](https://github.com/lxfater/BilibiliSummary)
 
@@ -44,15 +44,26 @@ After cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys)
 
 Then, run the application in the command line and it will be available at `http://localhost:3000`.
 
+[specific running procedure is described in this document - Chinese version](./deploy-ch.md)
+
 ```bash
 npm run dev
 ```
 
-## One-Click Deploy
+## Deployment
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/JimmyLv/BibiGPT&env=OPENAI_API_KEY&project-name=chat-bilibili-video&repo-name=chat-bilibili-video)
+Setup the env variables, by following the `./example.env` file.
+
+## Support Docker
+
+https://github.com/JimmyLv/BibiGPT/pull/133
+
+```shell
+# make sure setup .env file firstly
+docker compose up -d
+```
 
 ## Support -> Contact Me
 
